@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import LifeNet from "../../public/images/lifenet-work.png";
 
 const works = () => {
@@ -11,7 +12,11 @@ const works = () => {
         {/* 1-line */}
         <div className="col-start-2 col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -19,7 +24,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -27,7 +36,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -37,7 +50,11 @@ const works = () => {
         {/* 2-line */}
         <div className="col-start-2 col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -45,7 +62,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -53,7 +74,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -63,7 +88,11 @@ const works = () => {
         {/* 2-line */}
         <div className="col-start-2 col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -71,7 +100,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
@@ -79,7 +112,11 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div className="border">
-            <Image src={LifeNet} width={500} height={500} alt="" />
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a target="blank">
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
           </div>
           <div className="text-center mt-4">
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>

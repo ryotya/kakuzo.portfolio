@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import Skill from "./skill";
 import Works from "./works";
+import Profile from "./profile";
 import LogoSection from "./logoSection";
 
 const layout = ({ children }) => {
@@ -15,6 +16,9 @@ const layout = ({ children }) => {
       </div>
       <div className="mt-32">
         <Works />
+      </div>
+      <div className="mt-32">
+        <Profile />
       </div>
       <Footer />
     </div>
