@@ -2,7 +2,7 @@ const skill = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <h2 className="text-6xl font-thin tracking-wider">Skills</h2>
+        <h2 className="text-5xl font-thin tracking-wider">Skills</h2>
       </div>
       <div className="grid grid-cols-8 justify-center mt-16">
         <div className="col-start-2 col-span-2 text-center">
