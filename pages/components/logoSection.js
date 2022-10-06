@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const logoSection = () => {
   return (
-    <div className="flex justify-between max-w-6xl mx-auto h-40 items-end">
+    <div className="flex justify-between max-w-6xl mx-auto h-28 items-end">
       <div>
         <Link href="/#">
           <a className="text-4xl">
