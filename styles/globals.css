@@ -38,7 +38,13 @@ nav .title {
   color: var(--color-primary);
 }
 
-.container {
+.container-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.container-foo {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2.5rem;
@@ -49,7 +55,7 @@ section .content {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  height: 80vh;
+  height: 45vh;
 }
 
 section .content p {
