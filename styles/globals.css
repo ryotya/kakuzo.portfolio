@@ -113,11 +113,11 @@ section .content p {
 }
 
 input:checked + .slider {
-  background-color: #33f321;
+  background-color: rgb(216 180 254);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #33f321;
+  box-shadow: 0 0 1px rgb(216 180 254);
 }
 
 input:checked + .slider:before {

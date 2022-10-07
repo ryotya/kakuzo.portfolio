@@ -3,7 +3,7 @@ import LifeNet from "../../public/images/lifenet-work.png";
 
 const profile = () => {
   return (
-    <div>
+    <div id="profile">
       <div className="flex justify-center">
         <h2 className="text-5xl font-thin tracking-wider">Profile</h2>
       </div>
