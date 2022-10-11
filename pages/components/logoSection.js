@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Logo from "../../public/images/kakuzo-logo.png";
 import Link from "next/link";
 
 const logoSection = () => {
@@ -6,7 +8,7 @@ const logoSection = () => {
       <div>
         <Link href="/#">
           <a>
-            <p className="text-4xl font-medium tracking-widest">k.</p>
+            <Image src={Logo} width={180} height={110} alt="" />
           </a>
         </Link>
       </div>
