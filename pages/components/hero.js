@@ -3,7 +3,7 @@ const hero = () => {
     <div>
       <div>
         <section className="mt-12">
-          <div className="content bg-purple-200">
+          <div className="content hero-background">
             {/* <div className="flex justify-center">
               <h1>kakuzoのポートフォリオててわたしはたたててえかおあ🚀</h1>
             </div>

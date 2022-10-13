@@ -1,3 +1,7 @@
+import * as React from "react";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
+
 const contact = () => {
   return (
     <div id="contact">
@@ -81,13 +85,21 @@ const contact = () => {
                   ></textarea>
                 </div>
               </div>
-              <div class="sm:col-span-2 flex justify-center mt-8">
-                <button
+              <div class="sm:col-span-2 flex justify-center mt-4">
+                {/* <button
                   type="submit"
                   class="inline-flex w-1/2 items-center justify-center border border-transparent bg-purple-500 px-6 py-3 text-base font-light tracking-widest text-white hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 duration-300"
                 >
                   送信
-                </button>
+                </button> */}
+                <Stack spacing={2} direction="row">
+                  <Button
+                    variant="outlined"
+                    className="w-48 h-12 text-cyan-500 border-cyan-500"
+                  >
+                    送信
+                  </Button>
+                </Stack>
               </div>
             </form>
           </div>

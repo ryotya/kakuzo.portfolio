@@ -1,14 +1,15 @@
 import Image from "next/image";
-import Logo from "../../public/images/kakuzo-logo.png";
+import Logo from "../../public/images/kakuzo-logo-re.png";
 import Link from "next/link";
+import autoprefixer from "autoprefixer";
 
 const logoSection = () => {
   return (
-    <div className="flex justify-between max-w-6xl mx-auto h-28 items-end">
+    <div className="flex justify-between max-w-6xl mx-auto h-28 mt-8 items-center">
       <div>
         <Link href="/#">
           <a>
-            <Image src={Logo} width={180} height={110} alt="" />
+            <Image src={Logo} width={160} height={90} alt="" />
           </a>
         </Link>
       </div>

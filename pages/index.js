@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Hero from "./components/hero";
+import Skill from "../pages/components/skill";
+import Works from "../pages/components/works";
+import Profile from "../pages/components/profile";
+import Contact from "../pages/components/contact";
 
 export default function Home() {
   const [darkTheme, setDarkTheme] = useState("");
@@ -29,6 +33,18 @@ export default function Home() {
         <link rel="icon" href="../public/favicon.ico" />
       </Head>
       <Hero />
+      <div className="mt-32">
+        <Skill />
+      </div>
+      <div className="mt-48">
+        <Works />
+      </div>
+      <div className="mt-48">
+        <Profile />
+      </div>
+      <div className="mt-48">
+        <Contact />
+      </div>
     </div>
   );
 }

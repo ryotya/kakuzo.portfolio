@@ -23,7 +23,7 @@ export default function Navbar() {
   }, [darkTheme]);
 
   return (
-    <div className="mt-24">
+    <div className="mt-8">
       <div className="container-nav">
         <nav className="flex justify-end">
           <div className="flex items-center">
