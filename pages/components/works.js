@@ -5,6 +5,8 @@ import LifeNet from "../../public/images/lifenet-work.png";
 import KaruFuka from "../../public/images/karufuka-work.png";
 import Tetora from "../../public/images/tetora-work.png";
 import Autoku from "../../public/images/autoku-work.png";
+import Wizhr from "../../public/images/wizhr-work.png";
+import Samurai from "../../public/images/samurai-work.png";
 
 const works = () => {
   return (
@@ -90,65 +92,80 @@ const works = () => {
         </div>
         <div className="col-span-2">
           <div>
-            <Link href="https://www.lifenet-seimei.co.jp/">
+            <Link href="/works#wizhr">
               <a>
-                <Image src={LifeNet} width={500} height={500} alt="" />
+                <Image
+                  src={Wizhr}
+                  width={500}
+                  height={500}
+                  alt=""
+                  className={styles.image}
+                />
               </a>
             </Link>
           </div>
-          <div className="text-center mt-4">
-            <p className="font-medium">HRテックサービス</p>
+          <div className="text-center mt-2">
+            <p className="font-medium">HR techサービス</p>
           </div>
         </div>
         <div className="col-span-2">
           <div>
-            <Link href="https://www.lifenet-seimei.co.jp/">
+            <Link href="/works#samurai">
               <a>
-                <Image src={LifeNet} width={500} height={500} alt="" />
+                <Image
+                  src={Samurai}
+                  width={500}
+                  height={500}
+                  alt=""
+                  className={styles.image}
+                />
               </a>
             </Link>
           </div>
-          <div className="text-center mt-4">
-            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
+          <div className="text-center mt-2">
+            <p className="font-medium">エンジニアスクール</p>
           </div>
         </div>
 
-        {/* 2-line */}
+        {/* 3-line */}
+        {/* <div className="col-start-2 col-span-2">
+          <div>
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a>
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
+          </div>
+          <div className="text-center mt-4">
+            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div>
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a>
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
+          </div>
+          <div className="text-center mt-4">
+            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
+          </div>
+        </div>
+        <div className="col-span-2">
+          <div>
+            <Link href="https://www.lifenet-seimei.co.jp/">
+              <a>
+                <Image src={LifeNet} width={500} height={500} alt="" />
+              </a>
+            </Link>
+          </div>
+          <div className="text-center mt-4">
+            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
+          </div>
+        </div> */}
         <div className="col-start-2 col-span-2">
-          <div>
-            <Link href="https://www.lifenet-seimei.co.jp/">
-              <a>
-                <Image src={LifeNet} width={500} height={500} alt="" />
-              </a>
-            </Link>
-          </div>
-          <div className="text-center mt-4">
-            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
-          </div>
-        </div>
-        <div className="col-span-2">
-          <div>
-            <Link href="https://www.lifenet-seimei.co.jp/">
-              <a>
-                <Image src={LifeNet} width={500} height={500} alt="" />
-              </a>
-            </Link>
-          </div>
-          <div className="text-center mt-4">
-            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
-          </div>
-        </div>
-        <div className="col-span-2">
-          <div>
-            <Link href="https://www.lifenet-seimei.co.jp/">
-              <a>
-                <Image src={LifeNet} width={500} height={500} alt="" />
-              </a>
-            </Link>
-          </div>
-          <div className="text-center mt-4">
-            <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
-          </div>
+          <p className="ml-8 text-lg font-light">and more...</p>
         </div>
       </div>
     </div>
