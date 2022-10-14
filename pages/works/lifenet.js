@@ -5,7 +5,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 const lifeNet = () => {
   return (
-    <div className="mx-auto w-7/12">
+    <div className="mx-auto w-7/12" id="lifenet">
       <div className="mt-24">
         <div className="flex items-center hover:opacity-60 duration-300">
           <a

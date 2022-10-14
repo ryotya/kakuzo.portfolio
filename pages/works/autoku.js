@@ -1,0 +1,37 @@
+import Image from "next/image";
+import Autoku from "../../public/images/autoku-work-top.png";
+import styles from "../../styles/MyComponent.module.css";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+
+const autoku = () => {
+  return (
+    <div className="mx-auto w-7/12" id="autoku">
+      <div className="mt-24">
+        <div className="flex items-center hover:opacity-60 duration-300">
+          <a href="https://www.tetora.io/" target="_blank" rel="noreferrer">
+            HR techサービス
+          </a>
+          <OpenInNewIcon className="text-base ml-1" />
+        </div>
+        <div className="mt-4">
+          <Image
+            alt=""
+            src={Autoku}
+            width={900}
+            height={500}
+            className={styles.image}
+          />
+        </div>
+        <div className="mt-8">
+          <p className="font-light tracking-wide">Bizdev / Sales / Marketing</p>
+          <p className="mt-6 text-base leading-relaxed break-words font-light">
+            HR techサービスを4人で運営。HR
+            tech日程調整サービスのビジネス開発から拡販までを担当し、上場企業にM&AでEXIT。
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default autoku;

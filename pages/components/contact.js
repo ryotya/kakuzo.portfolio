@@ -26,7 +26,7 @@ const contact = () => {
                     name="first-name"
                     id="first-name"
                     autocomplete="given-name"
-                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-purple-400 focus:ring-2 duration-200"
+                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
               </div>
@@ -40,7 +40,7 @@ const contact = () => {
                     name="company"
                     id="company"
                     autocomplete="organization"
-                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-purple-400 focus:ring-2 duration-200"
+                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
               </div>
@@ -54,7 +54,7 @@ const contact = () => {
                     name="email"
                     type="email"
                     autocomplete="email"
-                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-purple-400 focus:ring-2 duration-200"
+                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
               </div>
@@ -68,7 +68,7 @@ const contact = () => {
                     name="phone-number"
                     id="phone-number"
                     autocomplete="tel"
-                    className="block w-full border-gray-300 border py-3 px-4 pl-20 focus:ring-purple-400 focus:ring-2 duration-200"
+                    className="block w-full border-gray-300 border py-3 px-4 pl-20 focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
               </div>
@@ -81,17 +81,11 @@ const contact = () => {
                     id="message"
                     name="message"
                     rows="4"
-                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-purple-400 focus:ring-2 duration-200"
+                    className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   ></textarea>
                 </div>
               </div>
               <div className="sm:col-span-2 flex justify-center mt-4">
-                {/* <button
-                  type="submit"
-                  className="inline-flex w-1/2 items-center justify-center border border-transparent bg-purple-500 px-6 py-3 text-base font-light tracking-widest text-white hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 duration-300"
-                >
-                  送信
-                </button> */}
                 <Stack spacing={2} direction="row">
                   <Button
                     variant="outlined"
