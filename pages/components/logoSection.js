@@ -17,15 +17,15 @@ const logoSection = () => {
         <p className="text-3xl font-light">f</p>
         <p className="ml-4 flex items-center pt-2">
           <svg
-            class="h-5 w-5 text-gray-700"
+            className="h-5 w-5 text-gray-700"
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            stroke-width="2"
+            strokeWidth="2"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             {" "}
             <path stroke="none" d="M0 0h24v24H0z" />{" "}

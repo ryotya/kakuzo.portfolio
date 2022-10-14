@@ -12,15 +12,15 @@ const skill = () => {
           </p>
           <div className="flex justify-center mt-8">
             <svg
-              class="h-28 w-28 text-gray-500"
+              className="h-28 w-28 text-gray-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="1"
+              strokeWidth="1"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               {" "}
               <path stroke="none" d="M0 0h24v24H0z" />{" "}
@@ -44,13 +44,13 @@ const skill = () => {
           </p>
           <div className="flex justify-center mt-8">
             <svg
-              class="h-28 w-28 text-gray-500"
+              className="h-28 w-28 text-gray-500"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               {" "}
               <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />{" "}
@@ -70,23 +70,23 @@ const skill = () => {
           </p>
           <div className="flex justify-center mt-8">
             <svg
-              class="h-28 w-28 text-gray-500"
+              className="h-28 w-28 text-gray-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               {" "}
               <path stroke="none" d="M0 0h24v24H0z" />{" "}
-              <circle cx="7" cy="18" r="2" stroke-width="1" />{" "}
-              <circle cx="7" cy="6" r="2" stroke-width="1" />{" "}
-              <circle cx="17" cy="12" r="2" stroke-width="1" />{" "}
-              <line x1="7" y1="8" x2="7" y2="16" stroke-width="1" />{" "}
-              <path d="M7 8a4 4 0 0 0 4 4h4" stroke-width="1" />
+              <circle cx="7" cy="18" r="2" strokeWidth="1" />{" "}
+              <circle cx="7" cy="6" r="2" strokeWidth="1" />{" "}
+              <circle cx="17" cy="12" r="2" strokeWidth="1" />{" "}
+              <line x1="7" y1="8" x2="7" y2="16" strokeWidth="1" />{" "}
+              <path d="M7 8a4 4 0 0 0 4 4h4" strokeWidth="1" />
             </svg>
           </div>
           <div className="mt-8 flex justify-center">
