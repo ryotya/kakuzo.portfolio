@@ -12,11 +12,13 @@ const works = () => {
   return (
     <div id="works">
       <div className="flex justify-center">
-        <h2 className="text-5xl font-thin tracking-wider">Works</h2>
+        <h2 className="text-4xl tab:text-5xl font-thin tracking-wider">
+          Works
+        </h2>
       </div>
-      <div className="grid grid-cols-8 gap-12 mt-20">
+      <div className="grid grid-cols-1 sp:grid-cols-2 lap:grid-cols-8 gap-8 lap:gap-12 mt-12 tab:mt-20 mx-12 tab:mx-24 spc:mx-32 lap:mx-0">
         {/* 1-line */}
-        <div className="col-start-2 col-span-2">
+        <div className="lap:col-start-2 lap:col-span-2">
           <Link href="/works#lifenet">
             <a>
               <Image
@@ -32,7 +34,7 @@ const works = () => {
             <p className="font-medium">ライフネット生命</p>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="lap:col-span-2">
           <div>
             <Link href="/works#karufuka">
               <a>
@@ -50,7 +52,7 @@ const works = () => {
             <p className="font-medium">karufuka(株)コーポレートサイト</p>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="lap:col-span-2">
           <div>
             <Link href="/works#tetora">
               <a>
@@ -72,7 +74,7 @@ const works = () => {
         </div>
 
         {/* 2-line */}
-        <div className="col-start-2 col-span-2">
+        <div className="lap:col-start-2 lap:col-span-2">
           <div>
             <Link href="/works#autoku">
               <a>
@@ -90,7 +92,7 @@ const works = () => {
             <p className="font-medium">HR techサービス</p>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="lap:col-span-2">
           <div>
             <Link href="/works#wizhr">
               <a>
@@ -108,7 +110,7 @@ const works = () => {
             <p className="font-medium">HR techサービス</p>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="lap:col-span-2">
           <div>
             <Link href="/works#samurai">
               <a>
@@ -164,7 +166,7 @@ const works = () => {
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
           </div>
         </div> */}
-        <div className="col-start-2 col-span-2">
+        <div className="lap:col-start-2 lap:col-span-2">
           <p className="ml-8 text-lg font-light">and more...</p>
         </div>
       </div>

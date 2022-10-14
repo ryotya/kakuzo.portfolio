@@ -35,16 +35,16 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <div className="mt-32">
+      <div className="mt-12 tab:mt-32">
         <Skill />
       </div>
-      <div className="mt-48">
+      <div className="mt-24 tab:mt-48">
         <Works />
       </div>
-      <div className="mt-48">
+      <div className="mt-24 tab:mt-48">
         <Profile />
       </div>
-      <div className="mt-48">
+      <div className="mt-24 tab:mt-48">
         <Contact />
       </div>
     </div>

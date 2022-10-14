@@ -41,7 +41,7 @@ nav .title {
 .container-nav {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 2.5rem;
+  margin-top: 0;
 }
 
 .container-foo {

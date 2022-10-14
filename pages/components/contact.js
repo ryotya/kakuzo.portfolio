@@ -6,9 +6,11 @@ const contact = () => {
   return (
     <div id="contact">
       <div className="flex justify-center">
-        <h2 className="text-5xl font-thin tracking-wider">Contact</h2>
+        <h2 className="text-4xl tab:text-5xl font-thin tracking-wider">
+          Contact
+        </h2>
       </div>
-      <div className="overflow-hidden pb-16 px-4 sm:px-6 lg:px-8 lg:pb-16 lg:pt-4">
+      <div className="overflow-hidden pb-16 px-4 sm:px-6 lg:px-8 lg:pb-16 lg:pt-4 mx-6">
         <div className="relative mx-auto max-w-xl">
           <div className="mt-12">
             <form

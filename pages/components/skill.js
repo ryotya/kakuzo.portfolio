@@ -2,15 +2,17 @@ const skill = () => {
   return (
     <div id="skills">
       <div className="flex justify-center">
-        <h2 className="text-5xl font-thin tracking-wider">Skills</h2>
+        <h2 className="text-4xl tab:text-5xl font-thin tracking-wider">
+          Skills
+        </h2>
       </div>
-      <div className="grid grid-cols-8 justify-center mt-16">
-        <div className="col-start-2 col-span-2 text-center">
+      <div className="grid grid-cols-1 spc:grid-cols-8 justify-center mt-12 tab:mt-16">
+        <div className="spc:col-start-2 spc:col-span-2 text-center">
           <h3 className="text-3xl font-light">ビジネス開発</h3>
           <p className="tracking-wide text-lg font-extralight mt-4 uppercase">
             biz dev
           </p>
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-4 sp:mt-8">
             <svg
               className="h-28 w-28 text-gray-500"
               width="24"
@@ -31,18 +33,18 @@ const skill = () => {
               <line x1="16" y1="5.25" x2="8" y2="9.75" />
             </svg>
           </div>
-          <div className="mt-8 flex justify-center">
-            <p className="text-sm leading-6 font-light text-left w-5/6">
+          <div className="mt-4 sp:mt-8 flex justify-center">
+            <p className="text-sm leading-6 font-light text-left w-3/4 sp:w-1/2 spc:w-5/6">
               お客様の要望をヒアリングし、現状の問題点を洗い出し、効果的なプランを作成いたします。制作ではデザインに入る前の事前の準備が特に重要になります。何が必要で何が必要でないのかを判断し、費用対効果の高いWebサイトを作るための土台を作ります。
             </p>
           </div>
         </div>
-        <div className="col-span-2 text-center">
+        <div className="col-span-2 text-center mt-16 sp:mt-24 spc:mt-0">
           <h3 className="text-3xl font-light">マーケティング</h3>
           <p className="tracking-wide text-lg font-extralight mt-4 uppercase">
             marketing
           </p>
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-4 sp:mt-8">
             <svg
               className="h-28 w-28 text-gray-500"
               viewBox="0 0 24 24"
@@ -57,18 +59,18 @@ const skill = () => {
               <polyline points="17 6 23 6 23 12" />
             </svg>
           </div>
-          <div className="mt-8 flex justify-center">
-            <p className="text-sm leading-6 font-light text-left w-5/6">
+          <div className="mt-4 sp:mt-8 flex justify-center">
+            <p className="text-sm leading-6 font-light text-left w-3/4 sp:w-1/2 spc:w-5/6">
               お客様の要望をヒアリングし、現状の問題点を洗い出し、効果的なプランを作成いたします。制作ではデザインに入る前の事前の準備が特に重要になります。何が必要で何が必要でないのかを判断し、費用対効果の高いWebサイトを作るための土台を作ります。
             </p>
           </div>
         </div>
-        <div className="col-span-2 text-center">
+        <div className="col-span-2 text-center mt-16 spc:mt-0">
           <h3 className="text-3xl font-light">コーディング</h3>
           <p className="tracking-wide text-lg font-extralight mt-4 uppercase">
             coding
           </p>
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-4 sp:mt-8">
             <svg
               className="h-28 w-28 text-gray-500"
               width="24"
@@ -89,8 +91,8 @@ const skill = () => {
               <path d="M7 8a4 4 0 0 0 4 4h4" strokeWidth="1" />
             </svg>
           </div>
-          <div className="mt-8 flex justify-center">
-            <p className="text-sm leading-6 font-light text-left w-5/6">
+          <div className="mt-4 sp:mt-8 flex justify-center">
+            <p className="text-sm leading-6 font-light text-left w-3/4 sp:w-1/2 spc:w-5/6">
               お客様の要望をヒアリングし、現状の問題点を洗い出し、効果的なプランを作成いたします。制作ではデザインに入る前の事前の準備が特に重要になります。何が必要で何が必要でないのかを判断し、費用対効果の高いWebサイトを作るための土台を作ります。
             </p>
           </div>

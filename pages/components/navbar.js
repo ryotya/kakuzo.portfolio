@@ -23,13 +23,13 @@ export default function Navbar() {
   }, [darkTheme]);
 
   return (
-    <div className="mt-8">
+    <div className="mt-0 spc:mt-8">
       <div className="container-nav">
-        <nav className="flex justify-end">
+        <nav className="flex justify-center tab:justify-end">
           <div className="flex items-center">
             <div>
               <Scroll
-                className="text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
+                className="tab:text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
                 to="profile"
                 smooth={true}
                 offset={-100}
@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
             <div className="ml-12">
               <Scroll
-                className="text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
+                className="tab:text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
                 to="skills"
                 smooth={true}
                 offset={-100}
@@ -51,7 +51,7 @@ export default function Navbar() {
             </div>
             <div className="ml-12">
               <Scroll
-                className="text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
+                className="tab:text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
                 to="works"
                 smooth={true}
                 offset={-50}
@@ -62,7 +62,7 @@ export default function Navbar() {
             </div>
             <div className="ml-12">
               <Scroll
-                className="text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
+                className="tab:text-lg tracking-wider font-light hover:text-gray-500 hover:border-b border-gray-500 duration-200 hover:cursor-pointer"
                 to="contact"
                 smooth={true}
                 offset={-50}
@@ -71,7 +71,7 @@ export default function Navbar() {
                 Contact
               </Scroll>
             </div>
-            <form action="#" className="ml-12">
+            <form action="#" className="ml-12 hidden tab:block">
               <label className="switch">
                 <input
                   type="checkbox"

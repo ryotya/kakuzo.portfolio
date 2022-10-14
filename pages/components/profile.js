@@ -1,23 +1,26 @@
 import Image from "next/image";
-import LifeNet from "../../public/images/lifenet-work.png";
+import MySelf from "../../public/images/myself.jpeg";
+import styles from "../../styles/MyComponent.module.css";
 
 const profile = () => {
   return (
     <div id="profile">
       <div className="flex justify-center">
-        <h2 className="text-5xl font-thin tracking-wider">Profile</h2>
+        <h2 className="text-4xl tab:text-5xl font-thin tracking-wider">
+          Profile
+        </h2>
       </div>
-      <div className="grid grid-cols-6 mt-24">
-        <div className="col-start-2 col-span-2">
+      <div className="grid grid-cols-1 spc:grid-cols-6 spc:gap-16 lap:gap-0 mt-12 tab:mt-24">
+        <div className="spc:col-start-2 spc:col-span-2 mx-auto px-16 sp:px-0 mb-8 spc:mb-0">
           <Image
-            src={LifeNet}
+            src={MySelf}
             width={300}
             height={300}
             alt=""
-            className="rounded-full border-2"
+            className={styles.myself}
           />
         </div>
-        <div className="col-span-2">
+        <div className="spc:col-span-3 lap:col-span-2 grid justify-center mx-10 tab:mx-0">
           <div className="font-light">
             <h3 className="font-normal border-b border-gray-400 inline-block">
               Me
@@ -40,7 +43,7 @@ const profile = () => {
             </h3>
             <p className="mt-2 leading-relaxed">
               HTML/CSS、tailwindCSS、Next.js、React、Ruby on
-              rails、wordpress、Adobe全般
+              rails、wordpress、AdobeXD、Figma
             </p>
           </div>
         </div>

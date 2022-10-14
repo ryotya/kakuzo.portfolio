@@ -7,23 +7,20 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xs: "440px",
+      sp: "480px",
+      // => @media (min-width: 440px) { ... }
+
+      tab: "640px",
       // => @media (min-width: 640px) { ... }
 
-      sm: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      md: "768px",
-      // => @media (min-width: 768px) { ... }
-
-      lg: "1024px",
+      spc: "840px",
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1280px",
-      // => @media (min-width: 1280px) { ... }
+      lap: "1040px",
+      // => @media (min-width: 1024px) { ... }
 
-      "2xl": "1536px",
-      // => @media (min-width: 1536px) { ... }
+      pc: "1280px",
+      // => @media (min-width: 1280px) { ... }
     },
     extend: {},
   },

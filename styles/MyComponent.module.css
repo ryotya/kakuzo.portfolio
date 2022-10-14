@@ -1,3 +1,9 @@
 .image {
   border: solid 1px #d3d3d3 !important;
 }
+
+.myself {
+  border: solid 1px #d3d3d3 !important;
+  border-radius: 100% !important;
+  opacity: 95%;
+}

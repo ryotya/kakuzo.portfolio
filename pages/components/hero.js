@@ -2,7 +2,7 @@ const hero = () => {
   return (
     <div>
       <div>
-        <section className="mt-12">
+        <section className="mt-4 tab:mt-12">
           <div className="content hero-background">
             {/* <div className="flex justify-center">
               <h1>kakuzoのポートフォリオててわたしはたたててえかおあ🚀</h1>

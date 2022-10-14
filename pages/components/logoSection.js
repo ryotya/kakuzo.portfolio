@@ -5,7 +5,7 @@ import autoprefixer from "autoprefixer";
 
 const logoSection = () => {
   return (
-    <div className="flex justify-between max-w-6xl mx-auto h-28 mt-8 items-center">
+    <div className="flex justify-between max-w-6xl mx-auto h-28 mt-2 tab:mt-8 items-center">
       <div>
         <Link href="/#">
           <a>
@@ -13,7 +13,7 @@ const logoSection = () => {
           </a>
         </Link>
       </div>
-      <div className="flex">
+      <div className="flex mr-4 pc:mr-0">
         <p className="text-3xl font-light">f</p>
         <p className="ml-4 flex items-center pt-2">
           <svg
