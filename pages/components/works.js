@@ -166,8 +166,8 @@ const works = () => {
             <p className="font-light">Next.js, HTML/CSS, tailwindCSS</p>
           </div>
         </div> */}
-        <div className="lap:col-start-2 lap:col-span-2">
-          <p className="ml-8 text-lg font-light">and more...</p>
+        <div className="lap:col-start-4 lap:col-span-2 text-center">
+          <p className="ml-8 text-xl font-light">and more...</p>
         </div>
       </div>
     </div>

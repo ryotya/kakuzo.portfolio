@@ -5,7 +5,7 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
 const wizhr = () => {
   return (
-    <div className="mx-auto w-7/12" id="wizhr">
+    <div className="mx-auto w-5/6 sp:w-3/4 lap:w-7/12" id="wizhr">
       <div className="mt-24">
         <div className="flex items-center hover:opacity-60 duration-300">
           <a href="" target="_blank" rel="noreferrer">
