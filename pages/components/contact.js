@@ -14,8 +14,9 @@ const contact = () => {
         <div className="relative mx-auto max-w-xl">
           <div className="mt-12">
             <form
-              action="#"
               method="POST"
+              data-netlify="true"
+              action="/thankyou"
               className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
               <div className="sm:col-span-2">
@@ -25,9 +26,10 @@ const contact = () => {
                 <div className="mt-1">
                   <input
                     type="text"
-                    name="first-name"
+                    name="name"
                     id="first-name"
                     autocomplete="given-name"
+                    required
                     className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
@@ -42,6 +44,7 @@ const contact = () => {
                     name="company"
                     id="company"
                     autocomplete="organization"
+                    required
                     className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
@@ -56,6 +59,7 @@ const contact = () => {
                     name="email"
                     type="email"
                     autocomplete="email"
+                    required
                     className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
@@ -70,7 +74,8 @@ const contact = () => {
                     name="phone-number"
                     id="phone-number"
                     autocomplete="tel"
-                    className="block w-full border-gray-300 border py-3 px-4 pl-20 focus:ring-cyan-500 focus:ring-1 duration-200"
+                    required
+                    className="block w-full border-gray-300 border py-3 px-4 focus:ring-cyan-500 focus:ring-1 duration-200"
                   />
                 </div>
               </div>
@@ -83,6 +88,7 @@ const contact = () => {
                     id="message"
                     name="message"
                     rows="4"
+                    required
                     className="block w-full border-gray-300 py-3 px-4 border focus:ring-cyan-500 focus:ring-1 duration-200"
                   ></textarea>
                 </div>
@@ -90,6 +96,7 @@ const contact = () => {
               <div className="sm:col-span-2 flex justify-center mt-4">
                 <Stack spacing={2} direction="row">
                   <Button
+                    type="submit"
                     variant="outlined"
                     className="w-48 h-12 text-cyan-500 border-cyan-500"
                   >
