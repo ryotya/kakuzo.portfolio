@@ -71,7 +71,7 @@ export default function Navbar() {
                 Contact
               </Scroll>
             </div>
-            {/* <form action="#" className="ml-12 hidden tab:block">
+            <form action="#" className="ml-12 hidden tab:block">
               <label className="switch">
                 <input
                   type="checkbox"
@@ -80,7 +80,7 @@ export default function Navbar() {
                 />
                 <span className="slider"></span>
               </label>
-            </form> */}
+            </form>
           </div>
         </nav>
       </div>
