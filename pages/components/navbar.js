@@ -1,7 +1,5 @@
 // import { useState, useEffect } from "react";
 import { Link as Scroll } from "react-scroll";
-import Link from "next/link";
-import Head from "next/head";
 
 export default function Navbar() {
   // const [darkTheme, setDarkTheme] = useState("");

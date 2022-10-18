@@ -1,6 +1,5 @@
 // import { useState, useEffect } from "react";
 import Link from "next/link";
-import Head from "next/head";
 
 export default function Navbar() {
   // const [darkTheme, setDarkTheme] = useState("");
