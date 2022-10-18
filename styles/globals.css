@@ -135,6 +135,6 @@ input:checked + .slider:before {
 }
 
 .hero-background {
-  background-image: url(../public/images/top-background-re.jpg);
+  background-image: url(../public/images/top-background-re.webp);
   background-size: cover;
 }

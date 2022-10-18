@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../../public/images/kakuzo-logo-re.png";
+import Logo from "../../public/images/kakuzo-logo-re.webp";
 import Link from "next/link";
 import autoprefixer from "autoprefixer";
 import FacebookIcon from "@mui/icons-material/Facebook";

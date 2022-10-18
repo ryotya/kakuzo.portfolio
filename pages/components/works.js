@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/MyComponent.module.css";
-import LifeNet from "../../public/images/lifenet-work.png";
-import KaruFuka from "../../public/images/karufuka-work.png";
-import Tetora from "../../public/images/tetora-work.png";
-import Autoku from "../../public/images/autoku-work.png";
-import Wizhr from "../../public/images/wizhr-work.png";
-import Samurai from "../../public/images/samurai-work.png";
+import LifeNet from "../../public/images/lifenet-work.webp";
+import KaruFuka from "../../public/images/karufuka-work.webp";
+import Tetora from "../../public/images/tetora-work.webp";
+import Autoku from "../../public/images/autoku-work.webp";
+import Wizhr from "../../public/images/wizhr-work.webp";
+import Samurai from "../../public/images/samurai-work.webp";
 
 const works = () => {
   return (

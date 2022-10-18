@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MySelf from "../../public/images/myself.jpeg";
+import MySelf from "../../public/images/myself.webp";
 import styles from "../../styles/MyComponent.module.css";
 
 const profile = () => {
