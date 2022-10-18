@@ -16,7 +16,7 @@ const contact = () => {
             <form
               method="POST"
               data-netlify="true"
-              action="/thankyou"
+              action="../thankyou"
               className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
               <div className="sm:col-span-2">
