@@ -13,8 +13,9 @@ const samurai = () => {
             target="_blank"
             rel="noreferrer"
           >
-            HR techサービス
+            エンジニアスクール
           </a>
+          <OpenInNewIcon className="text-base ml-1" />
         </div>
         <div className="mt-4">
           <Image

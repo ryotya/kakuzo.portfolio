@@ -4,23 +4,23 @@ import Link from "next/link";
 import Head from "next/head";
 
 export default function Navbar() {
-  const [darkTheme, setDarkTheme] = useState("");
+  // const [darkTheme, setDarkTheme] = useState("");
 
-  const handleToggle = (e) => {
-    setDarkTheme(e.target.checked);
-  };
+  // const handleToggle = (e) => {
+  //   setDarkTheme(e.target.checked);
+  // };
 
-  useEffect(() => {
-    if (darkTheme !== undefined) {
-      if (darkTheme) {
-        document.documentElement.setAttribute("data-theme", "dark");
-        window.localStorage.setItem("theme", "dark");
-      } else {
-        document.documentElement.removeAttribute("data-theme");
-        window.localStorage.setItem("theme", "light");
-      }
-    }
-  }, [darkTheme]);
+  // useEffect(() => {
+  //   if (darkTheme !== undefined) {
+  //     if (darkTheme) {
+  //       document.documentElement.setAttribute("data-theme", "dark");
+  //       window.localStorage.setItem("theme", "dark");
+  //     } else {
+  //       document.documentElement.removeAttribute("data-theme");
+  //       window.localStorage.setItem("theme", "light");
+  //     }
+  //   }
+  // }, [darkTheme]);
 
   return (
     <div className="mt-0 spc:mt-8">
@@ -71,7 +71,7 @@ export default function Navbar() {
                 Contact
               </Scroll>
             </div>
-            <form action="#" className="ml-12 hidden tab:block">
+            {/* <form action="#" className="ml-12 hidden tab:block">
               <label className="switch">
                 <input
                   type="checkbox"
@@ -80,7 +80,7 @@ export default function Navbar() {
                 />
                 <span className="slider"></span>
               </label>
-            </form>
+            </form> */}
           </div>
         </nav>
       </div>
