@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 
-const worksIndex = () => {
+const thankYou = () => {
   return (
     <div>
       <Navbar />
@@ -18,4 +18,4 @@ const worksIndex = () => {
   );
 };
 
-export default worksIndex;
+export default thankYou;
