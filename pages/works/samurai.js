@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Samurai from "../../public/images/samurai-work-top.png";
+import Samurai from "../../public/images/samurai-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 

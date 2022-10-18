@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Autoku from "../../public/images/autoku-work-top.png";
+import Autoku from "../../public/images/autoku-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 

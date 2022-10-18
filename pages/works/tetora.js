@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Tetora from "../../public/images/tetora-work-top.png";
+import Tetora from "../../public/images/tetora-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 

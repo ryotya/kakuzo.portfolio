@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LifeNetTop from "../../public/images/lifenet-work-top.png";
+import LifeNetTop from "../../public/images/lifenet-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 

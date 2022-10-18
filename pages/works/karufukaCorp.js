@@ -1,5 +1,5 @@
 import Image from "next/image";
-import KarufukaTop from "../../public/images/karufuka-work-top.png";
+import KarufukaTop from "../../public/images/karufuka-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 

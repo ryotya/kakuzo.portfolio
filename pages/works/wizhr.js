@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Wizhr from "../../public/images/wizhr-work-top.png";
+import Wizhr from "../../public/images/wizhr-work-top.webp";
 import styles from "../../styles/MyComponent.module.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
