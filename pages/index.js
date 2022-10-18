@@ -1,4 +1,3 @@
-// import { useState, useEffect } from "react";
 import Head from "next/head";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
@@ -8,24 +7,6 @@ import Profile from "./components/profile";
 import Contact from "./components/contact";
 
 export default function Home() {
-  // const [darkTheme, setDarkTheme] = useState("");
-
-  // const handleToggle = (e) => {
-  //   setDarkTheme(e.target.checked);
-  // };
-
-  // useEffect(() => {
-  //   if (darkTheme !== undefined) {
-  //     if (darkTheme) {
-  //       document.documentElement.setAttribute("data-theme", "dark");
-  //       window.localStorage.setItem("theme", "dark");
-  //     } else {
-  //       document.documentElement.removeAttribute("data-theme");
-  //       window.localStorage.setItem("theme", "light");
-  //     }
-  //   }
-  // }, [darkTheme]);
-
   return (
     <div>
       <Head>

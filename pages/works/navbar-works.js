@@ -1,25 +1,6 @@
-// import { useState, useEffect } from "react";
 import Link from "next/link";
 
-export default function Navbar() {
-  // const [darkTheme, setDarkTheme] = useState("");
-
-  // const handleToggle = (e) => {
-  //   setDarkTheme(e.target.checked);
-  // };
-
-  // useEffect(() => {
-  //   if (darkTheme !== undefined) {
-  //     if (darkTheme) {
-  //       document.documentElement.setAttribute("data-theme", "dark");
-  //       window.localStorage.setItem("theme", "dark");
-  //     } else {
-  //       document.documentElement.removeAttribute("data-theme");
-  //       window.localStorage.setItem("theme", "light");
-  //     }
-  //   }
-  // }, [darkTheme]);
-
+const NavbarWorks = () => {
   return (
     <div className="mt-8">
       <div className="container-nav">
@@ -68,4 +49,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default NavbarWorks;
