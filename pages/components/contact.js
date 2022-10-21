@@ -14,16 +14,15 @@ const contact = () => {
         <div className="relative mx-auto max-w-xl">
           <div className="mt-12">
             <form
+              name="contact"
               method="POST"
               data-netlify="true"
-              action="/thankyou"
+              action="/thanks"
               className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
+              <input type="hidden" value="contact" />
               <div className="sm:col-span-2">
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-light"
-                >
+                <label htmlFor="name" className="block text-sm font-light">
                   お名前
                 </label>
                 <div className="mt-1">

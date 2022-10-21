@@ -1,5 +1,5 @@
-import Navbar from "../components/navbar";
-const thankYou = () => {
+import Navbar from "./components/navbar";
+const thanks = () => {
   return (
     <div>
       <Navbar />
@@ -16,4 +16,4 @@ const thankYou = () => {
     </div>
   );
 };
-export default thankYou;
+export default thanks;
