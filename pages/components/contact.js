@@ -20,7 +20,7 @@ const contact = () => {
               action="/thanks"
               className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
-              <input type="hidden" value="contact" />
+              <input type="hidden" name="form-name" value="contact" />
               <div className="sm:col-span-2">
                 <label htmlFor="name" className="block text-sm font-light">
                   お名前
